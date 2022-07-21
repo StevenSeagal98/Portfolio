@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=Exo+2&display=swap');
+
+:root {
+    --dark-blue: rgba(20, 20, 43, 1);
+    --dark-purple: #3c2a58;
+    --light-purple: #945bf1;
+    --m-purple: #480aac;
+    --m-blue: #00002a;
+    --tea-green: #0CF574;
+    --primary-light: #f2f2f2;
+    --secondary-light: #e5e5e5;
+}
+
+* {
+    font-family: 'Alegreya Sans', sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+  overflow-x: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+html::-webkit-scrollbar {
+  background: var(--tea-green);
+  width: 10px !important;
+  height: 16px;
+}
+
+html::-webkit-scrollbar-thumb {
+  border-radius: 3px;
+  box-shadow: inset 2px 2px 2px hsla(0, 0%, 100%, 0.25),
+    inset -2px -2px 2px rgba(0, 0, 0, 0.25);
+}
+
+html::-webkit-scrollbar-thumb {
+  height: 20px;
+}
+
+html::-webkit-scrollbar-track {
+  background: var(--dark-blue);
+}
+
+h1, h2, h3, h4, h5, h6, svg {
+  font-family: 'Exo 2', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: var(--primary-light);
+}
+
+h1 {
+  font-size: 4.5rem;
+  font-weight: 600;
+  background-image: linear-gradient(to right, var(--light-purple), #bb48bf, #f67e4d);
+  background-clip: text;
+  background-attachment: cover;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+li {
+  color: #e5e5e5;
+}
+
+.green-btn {
+  border: 2px solid var(--tea-green);
+  color: var(--secondary-light);
+}
+
+.green-btn:hover {
+  background: rgba(12, 245, 116, .6);
+  color: var(--dark-blue);
+}
+.green-btn-two {
+  background: var(--tea-green);
+  color: var(--dark-blue);
+}
+
+.green-btn-two:hover {
+  background: rgba(12, 245, 116, .6);
+  border: 2px solid var(--tea-green);
+}
+
+.light-text {
+    color: var(--secondary-light);
+}
+
+.green {
+    color: #0CF574;
+}
+
+.u-bounce {
+    position: relative;
+    text-decoration: none;
+}
+
+.u-bounce:after {
+    position: absolute;
+    height: 2px;
+    width: 0%;
+    background-color: var(--tea-green);
+    content: "";
+    transition: ease .2s;
+    bottom: -.3rem;
+    left: 0;
+}
+
+.u-bounce:hover:after {
+    height: 2px;
+    animation: underline .3s forwards;
+}
+
+@keyframes underline {
+    0% {
+      width: 0;
+    }
+    40% {
+      width: 100%;
+    }
+    70% {
+      width: 60%;
+    }
+    100% {
+      width: 80%;
+    }
+  }
+
+@keyframes move-bg {
+    0% {
+        background-position: 0 0;
+    }
+    50% {
+        background-position: 100% 0;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+}
