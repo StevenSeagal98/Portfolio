@@ -2,15 +2,14 @@
     <div class="container d-flex flex-row flex-wrap mt-4 py-2 px-4">
         <div class="col-12 text-white">
             <h1>Recent Projects</h1>
-            <p class="col-md-6 col-12 text-center mx-auto">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat, mollitia. Consequatur aperiam recusandae id numquam?</p>
         </div>
-        <div class="row col-md-9 col-12 my-2 d-flex flex-row mt-4">
+        <div class="row col-md-9 col-12 my-2 d-flex flex-row">
         </div>
         <!--Card 1-->
         <div class="row my-2 d-flex flex-row">
-            <div class="col-md-6 col-12 text-light text-cont">
+            <div class="col-md-6 col-12 text-light text-cont first">
                 <h6 class="small feat">Featured Project</h6>
-                <h4 class="">PB Alerts</h4>
+                <h4>PB Alerts</h4>
                 <div class="align-content-center d-flex py-2">
                     <p class="my-auto">A modern SSR Nuxt and Express web application built with speed and SEO in mind. This was a unique opportunity for me to work with a small team of talented devs while taking responsibility for front-end stack choices and design.</p>
                 </div>
@@ -21,12 +20,14 @@
                     <li>BootstrapVue</li>
                     <li>Wordpress Api</li>
                 </ul>
-                <a href="https://pbalerts.com" class="u-bounce">
-                    <b-icon icon="arrow-up-right-circle-fill" class="icon mr-2"></b-icon>
-                    Live Site
-                </a>
+                <div class="col-12 px-0">
+                    <a href="https://pbalerts.com" class="u-bounce">
+                        <b-icon icon="arrow-up-right-circle-fill" class="icon mr-2"></b-icon>
+                        Live Site
+                    </a>
+                </div>
             </div>
-            <div class="col-md-6 col-12">
+            <div class="col-md-6 col-12 second">
                 <img src="https://i.imgur.com/b2MZlWk.png" class="rounded card-img shadow" />
             </div>
         </div>
@@ -49,34 +50,39 @@
                     <li>Ghost CMS</li>
                     <li>CSS</li>
                 </ul>
-                <a href="https://posts.restandretire.com" class="u-bounce ">
-                    <b-icon icon="arrow-up-right-circle-fill" class="icon mr-2"></b-icon>
-                    Live Site
-                </a>
+                <div class="col-12 px-0">
+                    <a href="https://posts.restandretire.com" class="u-bounce">
+                        <b-icon icon="arrow-up-right-circle-fill" class="icon mr-2"></b-icon>
+                        Live Site
+                    </a>
+                </div>
             </div>
         </div>
         <!--Card 3-->
         <div class="row my-2 d-flex flex-row">
-            <div class="col-md-6 col-12 text-light text-cont">
+            <div class="col-md-6 col-12 text-light text-cont first">
                 <h6 class="small feat">Featured Project</h6>
-                <h4 class="">PB Alerts</h4>
+                <h4 class="">Insider Trading Newsletter</h4>
                 <div class="align-content-center d-flex py-2">
-                    <p class="my-auto">A modern SSR Nuxt and Express web application built with speed and SEO in mind. This was a unique opportunity for me to work with a small team of talented devs while taking responsibility for front-end stack choices and design.</p>
+                    <p class="my-auto">Insider Trading is a tri-weekly email newsletter built by webscraping the highest value insider trades at regular intervals and formatting the data into an HTML email template.</p>
                 </div>
                 <ul class="tech px-0">
-                    <li class="pr-2 pl-0">Vue</li>
-                    <li>Nuxt</li>
-                    <li>Express</li>
-                    <li>BootstrapVue</li>
-                    <li>Wordpress Api</li>
+                    <li class="pr-2 pl-0">Express</li>
+                    <li>MJML</li>
+                    <li>Mailgun API</li>
+                    <li>Cheerio JS</li>
+                    <li>Node Cron</li>
+                    <li>Azure</li>
                 </ul>
-                <a href="https://pbalerts.com" class="u-bounce">
-                    <b-icon icon="arrow-up-right-circle-fill" class="icon mr-2"></b-icon>
-                    Live Site
-                </a>
+                <div class="col-12 px-0">
+                    <a href="https://try.pbalerts.com/insider-trading-abc/" class="u-bounce">
+                        <b-icon icon="arrow-up-right-circle-fill" class="icon mr-2"></b-icon>
+                        Live Site
+                    </a>
+                </div>
             </div>
-            <div class="col-md-6 col-12">
-                <img src="https://i.imgur.com/b2MZlWk.png" class="rounded card-img shadow" />
+            <div class="col-md-6 col-12 second">
+                <img src="https://i.imgur.com/WoqHKEf.jpg" class="rounded card-img shadow" />
             </div>
         </div>
     </div>
@@ -147,15 +153,6 @@ a {
     text-decoration: none;
 }
 
-.tech {
-    list-style: none;
-}
-
-li {
-    display: inline;
-    padding: 0 .6rem;
-}
-
 .text-cont {
     padding: 1rem;
 }
@@ -200,4 +197,22 @@ img:hover {
         width: 80%;
     }
 }
+
+.first {
+    order: 1;
+}
+
+.second {
+    order: 2;
+}
+
+@media screen and (max-width: 531px) {
+    .second {
+        order: 1;
+    }
+    .first {
+        order: 2;
+    }
+}
+
 </style>

@@ -138,7 +138,6 @@
 .wrapper {
     min-height: 85vh;
     max-height: 80vh;
-    
     display: flex;
     justify-content: center;
     color: #e5e5e5;
@@ -204,6 +203,15 @@ a:hover {
   50% {
     color: slategray;
   }
+}
+
+@media (max-width: 767px) {
+
+  * {
+    overflow-y: scroll;
+
+  
+    }
 }
 
 </style>

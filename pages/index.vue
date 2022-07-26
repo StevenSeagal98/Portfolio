@@ -7,12 +7,13 @@
 </template>
 
 <script>
+import Navbar from '../components/Navbar.vue';
 export default {
   name: 'IndexPage',
 
   components: {
-
-  },
+    Navbar
+},
 
   data() {
     return {
@@ -40,5 +41,14 @@ export default {
 * {
   max-height: 100vh;
   overflow-y: hidden;
+}
+
+@media (max-width: 480px) {
+  
+  /* CSS */
+  h1 {
+    font-size: 20px !important;
+  }
+  
 }
 </style>
