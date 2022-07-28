@@ -3,10 +3,8 @@
         <div class="col-12 text-white">
             <h1>Recent Projects</h1>
         </div>
-        <div class="row col-md-9 col-12 my-2 d-flex flex-row">
-        </div>
         <!--Card 1-->
-        <div class="row my-2 d-flex flex-row">
+        <div class="row justify-self-start my-2 d-flex flex-row p-2 align-items-center">
             <div class="col-md-6 col-12 text-light text-cont first">
                 <h6 class="small feat">Featured Project</h6>
                 <h4>PB Alerts</h4>
@@ -21,7 +19,7 @@
                     <li>Wordpress Api</li>
                 </ul>
                 <div class="col-12 px-0">
-                    <a href="https://pbalerts.com" class="u-bounce">
+                    <a href="https://pbalerts.com" target="_blank" class="u-bounce">
                         <b-icon icon="arrow-up-right-circle-fill" class="icon mr-2"></b-icon>
                         Live Site
                     </a>
@@ -33,7 +31,7 @@
         </div>
 
         <!--Card 2-->
-        <div class="row my-5 d-flex flex-row align-items-center">
+        <div class="row ml-auto my-5 d-flex flex-row align-items-center">
             <div class="col-md-6 col-12">
                 <img src="https://i.imgur.com/YiF6EhV.jpg" class="rounded card-img shadow" />
             </div>
@@ -51,7 +49,7 @@
                     <li>CSS</li>
                 </ul>
                 <div class="col-12 px-0">
-                    <a href="https://posts.restandretire.com" class="u-bounce">
+                    <a href="https://posts.restandretire.com" target="_blank" class="u-bounce">
                         <b-icon icon="arrow-up-right-circle-fill" class="icon mr-2"></b-icon>
                         Live Site
                     </a>
@@ -59,7 +57,7 @@
             </div>
         </div>
         <!--Card 3-->
-        <div class="row my-2 d-flex flex-row">
+        <div class="row my-2 d-flex flex-row align-items-center">
             <div class="col-md-6 col-12 text-light text-cont first">
                 <h6 class="small feat">Featured Project</h6>
                 <h4 class="">Insider Trading Newsletter</h4>
@@ -75,7 +73,7 @@
                     <li>Azure</li>
                 </ul>
                 <div class="col-12 px-0">
-                    <a href="https://try.pbalerts.com/insider-trading-abc/" class="u-bounce">
+                    <a href="https://try.pbalerts.com/insider-trading-abc/" target="_blank" class="u-bounce">
                         <b-icon icon="arrow-up-right-circle-fill" class="icon mr-2"></b-icon>
                         Live Site
                     </a>

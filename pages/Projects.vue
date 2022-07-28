@@ -11,6 +11,8 @@
     export default {
         name: 'Projects',
 
+        transition: 'default',
+
         components: {
 
         },

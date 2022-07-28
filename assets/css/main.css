@@ -48,6 +48,14 @@ h1, h2, h3, h4, h5, h6, svg {
   font-family: 'Exo 2', sans-serif;
 }
 
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--tea-green);
+}
+
 .container-fluid {
   background: rgba(20, 20, 43, 1);
 }
@@ -82,6 +90,12 @@ h1 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 2em;
+}
+
+.round {
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, .3);
+  background: linear-gradient(145deg, rgba(255, 255, 255, .3), rgba(255, 255, 255, 0));
 }
 
 .tech li {
@@ -184,4 +198,16 @@ h1 {
     font-size: 1em !important;
   }
   
+}
+
+/*Transition*/
+.page-enter-active,
+.page-leave-active {
+  transition-property: opacity;
+  transition-timing-function: ease-in-out;
+  transition-duration: 500ms;
+}
+.page-enter,
+.page-leave-to {
+  opacity: 0;
 }

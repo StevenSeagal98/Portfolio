@@ -17,7 +17,12 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.png' }
-    ]
+    ],
+
+    pageTransition: {
+      name: "default",
+      mode: "out-in"
+    }
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css

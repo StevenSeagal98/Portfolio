@@ -26,6 +26,8 @@
                         <li>HTML</li>
                         <li>CSS</li>
                         <li>Javascript</li>
+                        <li>PHP</li>
+                        <li>MySQL</li>
                         <li>VueJS</li>
                         <li>Nuxt</li>
                         <li>Node</li>
@@ -41,11 +43,10 @@
                     <h5>
                         Technologies I've Dabbled With
                     </h5>
-                    <p>These are some things I've played around with, either creating applications for school or in small personal projects, and that I'd love a chance to dive deeper into.</p>
+                    <p>These are some things I've played around with either creating applications for school or in small personal projects, and that I'd love a chance to dive deeper into.</p>
                     <ul class="tech align-items-center d-flex">
                         <li>React</li>
                         <li>Python</li>
-                        <li>PHP</li>
                         <li>MySQL</li>
                         <li>Postgres</li>
                         <li>Discord API</li>
@@ -55,7 +56,6 @@
 
             </div>
             <h2 class="colored-text">Experience</h2>
-
             <div class="col-12 shadow round justify-content-start py-2">
                 <div class="d-flex flex-row flex-wrap">
                     <div class="col-md-1 col-4 d-flex align-items-center justify-content-end py-2 h-100">
@@ -64,14 +64,15 @@
                     <div class="d-flex flex-column justify-content-end pb-0 mb-0 text-light">
                         <h5>Digital Media Manager</h5>
                         <h6>Virtus Media</h6>
-                        <h6>March 2020 - Current</h6>
+                        <h6>March 2021 - Current</h6>
                     </div>
                     <ul class="col-11 justify-self-end d-flex">
-                        <li>Built new "blog" section of the website with WordPress and performed regular SEO research to increase organic traffic.</li>
-                        <li>Refactored existing codebase with two backend engineers in NuxtJS and Node with Express to increase performance and greatly reduce code redundancy/clashing package dependencies.</li>
+                        <li>Refactored existing codebase of main PB Alerts web application with two backend engineers in NuxtJS and Node with Express to increase performance and greatly reduce code redundancy/clashing package dependencies.</li>
+                        <li>Built a web scraping application in Node and express to populate dynamic, hand coded email templates.</li>
+                        <li>Contributed to PHP WordPress themes for various media partners.</li>
+                        <li>Interviewed and onboarded candidates for various media and development related positions.</li>
                         <li>Created a variety of new products under the direction of the CEO and COO with various technologies.</li>
-                        <li>Oversaw daily social media posting, design, and customer engagement.</li>
-                        <li>Improved customer and community engagement by creating email system from the ground up.</li>
+                        <li>Improved community engagement by creating email system from the ground up.</li>
                     </ul>
                 </div>
             </div>
@@ -83,6 +84,8 @@
 <script>
     export default {
         name: 'AboutPage',
+
+        transition: 'default',
 
         components: {
 

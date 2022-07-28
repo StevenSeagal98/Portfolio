@@ -11,6 +11,8 @@ import Navbar from '../components/Navbar.vue';
 export default {
   name: 'IndexPage',
 
+  transition: 'default',
+
   components: {
     Navbar
 },
@@ -36,10 +38,10 @@ export default {
 <style scoped>
 .container-fluid {
   background: rgba(20, 20, 43, 1);
+  min-height: 100vh;
 }
 
 * {
-  max-height: 100vh;
   overflow-y: hidden;
 }
 

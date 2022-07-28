@@ -2,56 +2,17 @@
 <div class="wrapper container col-10 rounded d-flex p-1 my-auto">
     <div class="main col-12 rounded-lg d-flex align-content-center my-auto p-0">
         <div class="col-12 w-100 hero-main d-flex align-items-center justify-content-between">
-        <!--<div class="col-1 stagger-cont">
-            <div class="col-10 border staggering-grid">
-                <div class="row">
-                    <div class="el el-bl"></div>
-                    <div class="el el-bl-two"></div>
-                    <div class="el el-bl-three"></div>
-                    <div class="el el-bl-four"></div>
-                    <div class="el el-bl-five"></div>
-                </div>
-                <div class="row">
-                    <div class="el el-bl-two"></div>
-                    <div class="el el-bl-three"></div>
-                    <div class="el el-bl-four"></div>
-                    <div class="el el-bl-five"></div>
-                    <div class="el"></div>
-                </div>
-                <div class="row">
-                    <div class="el el-bl-three"></div>
-                    <div class="el el-bl-four"></div>
-                    <div class="el"></div>
-                    <div class="el"></div>
-                    <div class="el"></div>
-                </div>
-                <div class="row">
-                    <div class="el el-bl-four"></div>
-                    <div class="el el-bl-five"></div>
-                    <div class="el"></div>
-                    <div class="el"></div>
-                    <div class="el"></div>
-                </div>
-                <div class="row">
-                    <div class="el el-bl-five"></div>
-                    <div class="el"></div>
-                    <div class="el"></div>
-                    <div class="el"></div>
-                    <div class="el"></div>
-                </div>
-            </div>
-        </div>-->
-            <div class="col-md-9 col-12 mx-auto">
-                <h1 class="">Hi, I'm Nate Orona 👋</h1>
-                <p class="p-0">I'm a web developer specialized in the front-end of the stack with a passion for creating unforgettable user experiences and 
+            <div class="col-md-9 col-12 p-0 mx-auto">
+                <h1>Hi, I'm Nate Orona 👋</h1>
+                <p>I'm a web developer specialized in the front-end of the stack with a passion for creating unforgettable user experiences and 
                     helping organizations reach their full potential. I'm always interested in trying new technologies, 
                     working with new people, and implementing interesting design ideas!<br /><br />
-                    Shoot me a message <a class="green u-bounce" href="mailto:nathaniel.orona98@gmail.com">here</a>, let's talk about 
+                    Shoot me a message, let's talk about 
                     <span class="typed-text green">{{typeValue}}</span>
                     <span class="blinking-cursor green">|</span>
                     <span class="cursor green" :class="{ typing: typeStatus }">&nbsp;</span></p>
-                <nuxt-link to="/Projects"><button class="btn shadow green-btn">See my work</button></nuxt-link>
-                <button class="btn shadow green-btn-two" ref="contact-btn">Get In Touch</button>
+                <a class="btn shadow green-btn-two" href="mailto:nathaniel.orona98@gmail.com">Get In Touch</a>
+                <nuxt-link to="/Projects" class="btn shadow green-btn">See my work</nuxt-link>
             </div>
         </div>
     </div>
@@ -78,18 +39,6 @@
         },
 
         methods: {
-            animatedBox() {
-                this.$anime({
-                    targets: '.staggering-grid .el',
-                    scale: [
-                        {value: .1, easing: 'easeOutSine', duration: 500},
-                        {value: 1, easing: 'easeInOutQuad', duration: 1200}
-                    ],
-                    delay: this.$anime.stagger(300, {grid: [5, 5], from: 'center'}),
-                    loop: true,
-                });
-            },
-
             typeText() {
                 if (this.charIndex < this.displayTextArray[this.displayTextArrayIndex].length) {
                     if (!this.typeStatus) this.typeStatus = true;
@@ -127,17 +76,11 @@
         created() {
             setTimeout(this.typeText, this.newTextDelay + 200);
         },
-
-        mounted() {
-            this.animatedBox();
-        }
     }
 </script>
 
 <style scoped>
 .wrapper {
-    min-height: 85vh;
-    max-height: 80vh;
     display: flex;
     justify-content: center;
     color: #e5e5e5;
@@ -166,14 +109,6 @@ h1 {
 /*Hero and stagger*/
 p {
     font-size: 1.2rem;
-}
-
-a {
-    text-decoration: none;
-}
-
-a:hover {
-    color: var(--tea-green);
 }
 
 .green-btn {
