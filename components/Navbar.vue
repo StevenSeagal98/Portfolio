@@ -37,7 +37,7 @@
 <div>
   <b-navbar toggleable="lg" type="dark">
     <b-navbar-brand to="/" class="col-4 col-md-2">
-      <img src="https://i.imgur.com/Woxg1A1.png" alt="Nate Orona Logo" class="col-10 col-md-4 mx-auto">
+      <img src="https://i.imgur.com/WbCp9sk.png" alt="Nate Orona Logo" class="col-10 col-md-4 mx-auto">
     </b-navbar-brand>
 
     <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
