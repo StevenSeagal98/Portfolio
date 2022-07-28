@@ -1,7 +1,7 @@
 <template>
     <footer class="footer py-2 d-flex flex-row col-12">
         <div class="container d-flex flex-row flex-wrap justify-content-between">
-            <div class="text d-flex align-items-center">
+            <div class="text col-12 col-md-4 justify-content-center d-flex align-items-center">
                 <p class="my-auto footer-text">
                     Made With 
                     <b-icon icon="heart" variant="danger" class="icon"></b-icon> 
@@ -9,7 +9,7 @@
                     <span class="gr-text">Nate Orona</span>
                 </p>
             </div>
-            <div class="social-links d-flex flex-row justify-content-around">
+            <div class="social-links d-flex flex-row justify-content-around col-12 col-md-4">
                 <a href="mailto:nathaniel.orona98@gmail.com" target="_blank">
                     <b-icon icon="envelope-fill" scale="1.5"></b-icon>
                 </a>
