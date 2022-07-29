@@ -155,15 +155,8 @@ a {
     padding: 1rem;
 }
 
-li:last-of-type {
-    padding-right: 0;
-}
 .row:nth-of-type(2) {
     margin-top: 4rem !important;
-}
-
-.row:nth-of-type(2) .text-cont ul {
-    padding-left: 0;
 }
 
 img {
