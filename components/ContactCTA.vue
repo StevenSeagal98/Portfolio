@@ -4,7 +4,7 @@
             <b-icon icon="megaphone" class="mx-2 text-light my-2" scale="2"></b-icon>
             <h2>Get In Touch</h2>
             <p>I'm always interested in discussing new projects and learning from talented people. Shoot me an email and let's talk about your goals and how I can help you meet them.</p>
-            <a class="btn green-btn-two align-items-center mx-auto d-flex w-50 justify-content-center">Reach Out 
+            <a class="btn green-btn-two align-items-center mx-auto d-flex w-50 justify-content-center" href="mailto:nathaniel.orona98@gmail.com">Reach Out 
                 <b-icon icon="arrow-right" class="mx-2 my-auto"></b-icon>
             </a>
         </div>
