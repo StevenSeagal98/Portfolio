@@ -37,6 +37,11 @@
                         <li>HandlebarsJS</li>
                         <li>Ghost</li>
                         <li>MJML</li>
+                        <li>Python</li>
+                        <li>Postgres</li>
+                        <li>Stripe API</li>
+                        <li>Sendgrid API</li>
+                        <li>Git / Github</li>
                     </ul>
                 </div>
                 <div class="d-flex flex-column mt-2">
@@ -46,9 +51,11 @@
                     <p>These are some things I've played around with either creating applications for school or in small personal projects, and that I'd love a chance to dive deeper into.</p>
                     <ul class="tech align-items-center d-flex">
                         <li>React</li>
-                        <li>Python</li>
                         <li>MySQL</li>
-                        <li>Postgres</li>
+                        <li>Django</li>
+                        <li>Flask</li>
+                        <li>Laravel</li>
+                        <li>Kotlin</li>
                         <li>Discord API</li>
                     </ul>
                 </div>
@@ -62,7 +69,7 @@
                         <img src="https://i.imgur.com/iy1RRUt.jpg" alt="Virtus Media Logo" class="w-100 rounded-circle" />
                     </div>
                     <div class="d-flex flex-column justify-content-end pb-0 mb-0 text-light">
-                        <h5>Digital Media Manager</h5>
+                        <h5>Web Developer</h5>
                         <h6>Virtus Media</h6>
                         <h6>March 2021 - Current</h6>
                     </div>
@@ -70,9 +77,8 @@
                         <li>Refactored existing codebase of main PB Alerts web application with two backend engineers in NuxtJS and Node with Express to increase performance and greatly reduce code redundancy/clashing package dependencies.</li>
                         <li>Built a web scraping application in Node and express to populate dynamic, hand coded email templates.</li>
                         <li>Contributed to PHP WordPress themes for various media partners.</li>
-                        <li>Interviewed and onboarded candidates for various media and development related positions.</li>
                         <li>Created a variety of new products under the direction of the CEO and COO with various technologies.</li>
-                        <li>Improved community engagement by creating email system from the ground up.</li>
+                        <li>Improved community engagement by creating email system from the ground up with ExpressJS, Postgres, and the Sendgrid API.</li>
                     </ul>
                 </div>
             </div>
@@ -86,10 +92,6 @@
         name: 'AboutPage',
 
         transition: 'default',
-
-        components: {
-
-        }
     }
 </script>
 
