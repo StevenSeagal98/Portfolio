@@ -49,7 +49,7 @@
                     <li>CSS</li>
                 </ul>
                 <div class="col-12 px-0">
-                    <a href="https://posts.restandretire.com" target="_blank" class="u-bounce">
+                    <a href="https://pbalerts.com/products/restandretire" target="_blank" class="u-bounce">
                         <b-icon icon="arrow-up-right-circle-fill" class="icon mr-2"></b-icon>
                         Live Site
                     </a>
