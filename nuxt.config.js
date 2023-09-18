@@ -39,7 +39,10 @@ export default {
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
-    'nuxt-animejs'
+    'nuxt-animejs',
+    ['@nuxtjs/google-analytics', {
+      id: 'G-D0F492Z356'
+    }]
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
