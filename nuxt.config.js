@@ -20,8 +20,8 @@ export default {
     ],
 
     pageTransition: {
-      name: "default",
-      mode: "out-in"
+      name: 'default',
+      mode: 'out-in'
     }
   },
 
@@ -41,7 +41,8 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/bootstrap
     'bootstrap-vue/nuxt',
-    'nuxt-animejs'
+    'nuxt-animejs',
+    '@nuxtjs/sitemap'
   ],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
