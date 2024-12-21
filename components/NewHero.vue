@@ -4,14 +4,14 @@
         <div class="col-12 w-100 hero-main d-flex align-items-center justify-content-between">
             <div class="col-md-9 col-12 p-0 mx-auto">
                 <h1>Hi, I'm Nate Orona 👋</h1>
-                <p>I'm a web developer specialized in the front-end of the stack with a passion for creating unforgettable user experiences and 
+                <p>I'm a Software Developer specialized in Full Stack Web Development. I have a passion for creating unforgettable user experiences and 
                     helping organizations reach their full potential. I'm always interested in trying new technologies, 
                     working with new people, and implementing interesting design ideas!<br /><br />
                     Shoot me a message, let's talk about 
                     <span class="typed-text green">{{typeValue}}</span>
                     <span class="blinking-cursor green">|</span>
                     <span class="cursor green" :class="{ typing: typeStatus }">&nbsp;</span></p>
-                <a class="btn shadow green-btn-two" href="mailto:nathaniel.orona98@gmail.com">Get In Touch</a>
+                <a class="btn shadow green-btn-two" href="mailto:nateodev@gmail.com">Get In Touch</a>
                 <nuxt-link to="/Projects" class="btn shadow green-btn">See my work</nuxt-link>
             </div>
         </div>
@@ -27,7 +27,7 @@
             return {
                 typeValue: '',
                 typeStatus: false,
-                displayTextArray: ['design.', 'Vue.', 'Nuxt.js.', 'Express.', 'Wordpress.'],
+                displayTextArray: ['API Design.', 'Vue.', 'Integrations.', 'Java', 'Nuxt.', 'Express.', 'Wordpress.', 'Database Management'],
                 typingSpeed: 100,
                 erasingSpeed: 100,
                 newTextDelay: 2000,
